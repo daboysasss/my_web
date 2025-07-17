@@ -1,0 +1,16 @@
+header {
+display: flex;
+height: 100px;
+place-items: center;
+}
+
+.menu {
+  height: 100px;
+  width: 100%;
+  align-content: center;
+}
+
+header a {
+  font-size: 23px;
+  margin: 25px;
+}
