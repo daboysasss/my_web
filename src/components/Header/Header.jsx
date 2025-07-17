@@ -4,10 +4,11 @@ import StarBorder from '../StarBorder/StarBorder';
 
 const Header = () => {
   return (
+    <header>
       <StarBorder
-  as="header"
+  as="div"
   className="custom-class"
-  color="cyan"
+  color="magenta"
   speed="5s">
       <nav className="menu">
         <a href="/">Home</a>
@@ -16,6 +17,7 @@ const Header = () => {
         <a href="/contact">Contact</a>
       </nav>
       </StarBorder>
+      </header>
   );
 };
 

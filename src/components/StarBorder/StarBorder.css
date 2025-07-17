@@ -32,11 +32,10 @@
 .inner-content {
   position: relative;
   border: 1px solid #222;
-  background: #000;
+  background: #000000;
   color: white;
   font-size: 16px;
   text-align: center;
-  padding: 16px 26px;
   border-radius: 20px;
   z-index: 1;
 }

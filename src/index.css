@@ -6,10 +6,6 @@
 }
 
 body {
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 0%; 
-  margin-bottom: 0%;
   font-family: 'Onest', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,4 +15,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-content{
+ color: white; 
 }

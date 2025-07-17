@@ -1,16 +1,21 @@
 header {
 display: flex;
-height: 100px;
-place-items: center;
+width:100%;
+justify-content:center;
+position: fixed;
 }
 
 .menu {
-  height: 100px;
-  width: 100%;
-  align-content: center;
+  padding: 20px 10px;
 }
 
 header a {
-  font-size: 23px;
+  font-size: 20px;
   margin: 25px;
+  color: #c2c2c2;
+} 
+
+.custom-class{
+  box-shadow: 0 8px 32px #1f268726;
+  backdrop-filter: blur(15px);
 }
