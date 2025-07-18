@@ -13,7 +13,22 @@ header a {
   font-size: 20px;
   margin: 25px;
   color: #c2c2c2;
+  text-decoration: none; /* Это убирает подчеркивание */
+
 } 
+
+
+/* Эффект плавного загорания */
+header a:hover {
+  color: #e29fdf; /* Яркий цвет при наведении */
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* Мягкое свечение */
+}
+
+/* Стиль для активного состояния меню */
+header a.active {
+  color: #e29fdf;
+  font-weight: bold;
+}
 
 .custom-class{
   box-shadow: 0 8px 32px #1f268726;

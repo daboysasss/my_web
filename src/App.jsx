@@ -10,6 +10,7 @@ function App() {
       
       {/* Основное содержимое */}
       <main className="main-content">
+        
         {/* Другие секции можно добавлять здесь */}
       </main>
       
