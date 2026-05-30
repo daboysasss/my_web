@@ -75,7 +75,7 @@ header a.active {
 }
 
 .custom-class .inner-content {
-  background: rgba(17, 17, 17, 0.75); /* Полупрозрачный темный фон как в dyplom */
+  background: rgba(17, 17, 17, 0.35); /* Полупрозрачный темный фон как в dyplom */
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.08); /* Элегантная рамка для эффекта стекла */

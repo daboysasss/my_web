@@ -46,3 +46,49 @@ code {
 .main-content{
  color: white; 
 }
+
+/* Контейнер для анимации бликов на сетке */
+.grid-glares {
+  position: fixed;
+  inset: 0;
+  z-index: -1; /* Должен быть между body::before и контентом */
+  pointer-events: none;
+  overflow: hidden;
+  /* Применяем маску, точно повторяющую фоновую сетку, чтобы блики были видны ТОЛЬКО на линиях */
+  -webkit-mask-image: 
+    linear-gradient(to right, black 1px, transparent 1px),
+    linear-gradient(to bottom, black 1px, transparent 1px);
+  mask-image: 
+    linear-gradient(to right, black 1px, transparent 1px),
+    linear-gradient(to bottom, black 1px, transparent 1px);
+  -webkit-mask-size: 40px 40px;
+  mask-size: 40px 40px;
+}
+
+/* Стилизация скроллбара (ползунка сбоку) под фиолетовый неон */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(147, 51, 234, 0.3); /* Полупрозрачный фиолетовый */
+  border-radius: 4px;
+  border: 1px solid #000000; /* Отступ внутри трека */
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(162, 88, 255, 0.6); /* Яркий фиолетовый неон при наведении */
+  box-shadow: 0 0 10px rgba(162, 88, 255, 0.4);
+}
+
+/* Поддержка для Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(147, 51, 234, 0.3) #000000;
+}
