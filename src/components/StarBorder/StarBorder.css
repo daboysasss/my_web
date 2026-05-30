@@ -1,7 +1,7 @@
 .star-border-container {
   display: inline-block;
   position: relative;
-  border-radius: 20px;
+  border-radius: 35px;
   overflow: hidden;
 }
 
@@ -36,7 +36,7 @@
   color: white;
   font-size: 16px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 35px;
   z-index: 1;
 }
 
