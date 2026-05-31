@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 body {
   font-family: 'Onest', sans-serif;
   -webkit-font-smoothing: antialiased;

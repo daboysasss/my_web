@@ -61,20 +61,19 @@ header a:hover {
   text-shadow: 0 0 8px rgba(226, 159, 223, 0.6); /* Мягкое свечение в цвет */
 }
 
-/* Стиль для активного состояния меню */
 header a.active {
   color: #e29fdf;
   font-weight: bold;
-  box-shadow: inset 0 0 0 2px rgba(226, 159, 223, 0.6); /* Красивая внутренняя рамка без сдвигов и артефактов */
   background-color: rgba(226, 159, 223, 0.1);
 }
 
-.custom-class {
+.header-nav-container {
+  display: inline-block;
+  position: relative;
+  border-radius: 35px;
+  overflow: hidden;
   pointer-events: auto;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-}
-
-.custom-class .inner-content {
   background: rgba(17, 17, 17, 0.35); /* Полупрозрачный темный фон как в dyplom */
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
